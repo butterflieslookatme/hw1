@@ -1,0 +1,17 @@
+//change the size 
+radius = 180;
+
+//Make the bubble's motions more vigorous
+ellipse(x, y, radius * 1);
+  x += random(-1, 4);
+  y += random(-1, 2);
+}
+
+//Change the color of the bubble
+ fill(255, 220, 200, 200);
+  }
+  else {
+    fill(255, 100, 180, 90);
+  }
+  
+  
